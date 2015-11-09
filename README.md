@@ -1,0 +1,1 @@
+# scala-repl-man-pages
