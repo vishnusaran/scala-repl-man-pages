@@ -9,8 +9,8 @@ object CommonSettings {
         scalaVersion := BuildCommon.scalaVersion,
         scalacOptions := BuildCommon.scalacOption,
         javacOptions := BuildCommon.javacOptions,
-        parallelExecution in Test := true,
-        resolvers ++= BuildCommon.resolvers)
+        parallelExecution in Test := true)
+
 
     private lazy val localScalariformSettings = scalariformSettings ++ Seq(
         ScalariformKeys.preferences := {
